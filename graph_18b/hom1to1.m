@@ -1,0 +1,16 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+{<|"scalar" -> 0, "p" -> aa, "q" -> aa, "s" -> 1, "t" -> 2|>, 
+ <|"scalar" -> 0, "p" -> bb, "q" -> bb, "s" -> 1, "t" -> 3|>, 
+ <|"scalar" -> 0, "p" -> cc, "q" -> cc, "s" -> 1, "t" -> 4|>, 
+ <|"scalar" -> 0, "p" -> dd, "q" -> dd, "s" -> 2, "t" -> 1|>, 
+ <|"scalar" -> 0, "p" -> ee, "q" -> ee, "s" -> 2, "t" -> 2|>, 
+ <|"scalar" -> 0, "p" -> ff, "q" -> ff, "s" -> 2, "t" -> 3|>, 
+ <|"scalar" -> 0, "p" -> gg, "q" -> gg, "s" -> 2, "t" -> 4|>, 
+ <|"scalar" -> 0, "p" -> hh, "q" -> hh, "s" -> 3, "t" -> 1|>, 
+ <|"scalar" -> 0, "p" -> ii, "q" -> ii, "s" -> 3, "t" -> 2|>, 
+ <|"scalar" -> 0, "p" -> jj, "q" -> jj, "s" -> 3, "t" -> 3|>, 
+ <|"scalar" -> 0, "p" -> kk, "q" -> kk, "s" -> 3, "t" -> 4|>, 
+ <|"scalar" -> 0, "p" -> ll, "q" -> ll, "s" -> 4, "t" -> 1|>, 
+ <|"scalar" -> 0, "p" -> mm, "q" -> mm, "s" -> 4, "t" -> 2|>, 
+ <|"scalar" -> 0, "p" -> nn, "q" -> nn, "s" -> 4, "t" -> 3|>, 
+ <|"scalar" -> 0, "p" -> oo, "q" -> oo, "s" -> 4, "t" -> 4|>}
