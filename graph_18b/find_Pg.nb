@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2235735,      50945]
-NotebookOptionsPosition[   2230934,      50873]
-NotebookOutlinePosition[   2231333,      50889]
-CellTagsIndexPosition[   2231290,      50886]
+NotebookDataLength[   2235783,      50946]
+NotebookOptionsPosition[   2230982,      50874]
+NotebookOutlinePosition[   2231381,      50890]
+CellTagsIndexPosition[   2231338,      50887]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -50357,7 +50357,8 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
-                StandardForm]],
+                StandardForm],
+               ImageSizeCache->{51., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -50942,11 +50943,11 @@ Cell[2085396, 47784, 499, 11, 73, "Input",ExpressionUUID->"7a18cc13-f0c9-438d-8b
 Cell[2085898, 47797, 443, 10, 73, "Input",ExpressionUUID->"bc4536b0-f9a2-47f8-acc8-1fd3004f5fcd"],
 Cell[CellGroupData[{
 Cell[2086366, 47811, 544, 12, 52, "Input",ExpressionUUID->"d6447bfb-f806-4357-8b3c-6de9403c4255"],
-Cell[2086913, 47825, 123958, 2701, 222, "Output",ExpressionUUID->"df9e9c5c-4626-43e1-8beb-acacd835f304"]
+Cell[2086913, 47825, 124006, 2702, 222, "Output",ExpressionUUID->"df9e9c5c-4626-43e1-8beb-acacd835f304"]
 }, Open  ]],
-Cell[2210886, 50529, 294, 6, 36, "Text",ExpressionUUID->"db360336-cf12-4ae8-9878-4d24613de8bb"],
-Cell[2211183, 50537, 211, 4, 30, "Input",ExpressionUUID->"5f660aaa-459a-4b26-9996-7c2fea596a59"],
-Cell[2211397, 50543, 19533, 328, 97, InheritFromParent,ExpressionUUID->"4f9a9a8f-f5d0-4135-977f-e2e45fc11430"]
+Cell[2210934, 50530, 294, 6, 36, "Text",ExpressionUUID->"db360336-cf12-4ae8-9878-4d24613de8bb"],
+Cell[2211231, 50538, 211, 4, 30, "Input",ExpressionUUID->"5f660aaa-459a-4b26-9996-7c2fea596a59"],
+Cell[2211445, 50544, 19533, 328, 97, InheritFromParent,ExpressionUUID->"4f9a9a8f-f5d0-4135-977f-e2e45fc11430"]
 }
 ]
 *)
