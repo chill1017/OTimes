@@ -1,0 +1,35 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+{alpha1 -> Sqrt[(5 + 2*Sqrt[6])/(2 + Sqrt[6])]*alpha8, alpha12 -> alpha9, 
+ alpha13 -> alpha30, alpha14 -> alpha50, alpha15 -> alpha73, 
+ alpha16 -> alpha10, alpha17 -> alpha50, alpha18 -> alpha61, 
+ alpha19 -> alpha74, alpha2 -> alpha69, 
+ alpha20 -> Sqrt[(2 + Sqrt[6])/(5 + 2*Sqrt[6])]*alpha69, alpha21 -> alpha11, 
+ alpha22 -> alpha73, alpha23 -> alpha74, alpha24 -> alpha86, 
+ alpha25 -> alpha9, alpha26 -> alpha30, alpha27 -> alpha50, 
+ alpha28 -> alpha73, alpha29 -> 
+  -alpha30 - Sqrt[(2 + Sqrt[6])/(5 + 2*Sqrt[6])]*alpha31 - alpha32 - alpha33, 
+ alpha3 -> alpha69, alpha34 -> Sqrt[(5 + 2*Sqrt[6])/(2 + Sqrt[6])]*alpha31, 
+ alpha35 -> Sqrt[(5 + 2*Sqrt[6])/(2 + Sqrt[6])]*alpha55, alpha36 -> alpha50, 
+ alpha37 -> alpha32, alpha38 -> alpha55, alpha39 -> alpha62, 
+ alpha4 -> Sqrt[(5 + 2*Sqrt[6])/(2 + Sqrt[6])]*alpha85, alpha40 -> alpha78, 
+ alpha41 -> alpha73, alpha42 -> alpha33, alpha43 -> alpha78, 
+ alpha44 -> alpha87, alpha45 -> Sqrt[(5 + 2*Sqrt[6])/(2 + Sqrt[6])]*alpha31, 
+ alpha46 -> Sqrt[(5 + 2*Sqrt[6])/(2 + Sqrt[6])]*alpha55, 
+ alpha47 -> Sqrt[(5 + 2*Sqrt[6])/(2 + Sqrt[6])]*alpha55, 
+ alpha48 -> Sqrt[(5 + 2*Sqrt[6])/(2 + Sqrt[6])]*alpha63, alpha49 -> alpha10, 
+ alpha5 -> Sqrt[(5 + 2*Sqrt[6])/(2 + Sqrt[6])]*alpha8, alpha51 -> alpha61, 
+ alpha52 -> alpha74, alpha53 -> alpha50, alpha54 -> alpha32, 
+ alpha56 -> alpha62, alpha57 -> alpha78, 
+ alpha58 -> Sqrt[(5 + 2*Sqrt[6])/(2 + Sqrt[6])]*alpha55, 
+ alpha59 -> Sqrt[(5 + 2*Sqrt[6])/(2 + Sqrt[6])]*alpha63, alpha6 -> alpha69, 
+ alpha60 -> -alpha61 - alpha62 - Sqrt[(2 + Sqrt[6])/(5 + 2*Sqrt[6])]*
+    alpha63 - alpha64, alpha65 -> alpha74, alpha66 -> alpha78, 
+ alpha67 -> alpha64, alpha68 -> alpha88, 
+ alpha7 -> -alpha10 - alpha11 - Sqrt[(2 + Sqrt[6])/(5 + 2*Sqrt[6])]*alpha8 - 
+   alpha9, alpha70 -> Sqrt[(5 + 2*Sqrt[6])/(2 + Sqrt[6])]*alpha85, 
+ alpha71 -> Sqrt[(2 + Sqrt[6])/(5 + 2*Sqrt[6])]*alpha69, alpha72 -> alpha11, 
+ alpha75 -> alpha86, alpha76 -> alpha73, alpha77 -> alpha33, 
+ alpha79 -> alpha87, alpha80 -> alpha74, alpha81 -> alpha78, 
+ alpha82 -> alpha64, alpha83 -> alpha88, 
+ alpha84 -> -(Sqrt[(2 + Sqrt[6])/(5 + 2*Sqrt[6])]*alpha85) - alpha86 - 
+   alpha87 - alpha88}
