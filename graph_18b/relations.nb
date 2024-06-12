@@ -1,0 +1,155 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4663,        145]
+NotebookOptionsPosition[      4313,        131]
+NotebookOutlinePosition[      4709,        147]
+CellTagsIndexPosition[      4666,        144]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+  "SetDirectory", "[", 
+   "\"\</Users/calebhill/Documents/UNH/Research/code/OTimes/graph_18b\>\"", 
+   "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"q", "=", 
+    RowBox[{"Exp", "[", 
+     RowBox[{"2", "*", "Pi", "*", 
+      RowBox[{"I", "/", "42"}]}], "]"}]}], ";"}], 
+  " "}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"InDeg", "[", "z_", "]"}], ":=", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", "}"}], ",", 
+     RowBox[{"Return", "[", 
+      RowBox[{"360", " ", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"z", "//", "Arg"}], ")"}], "/", 
+        RowBox[{"(", 
+         RowBox[{"2", " ", "Pi"}], ")"}]}]}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Quantum", "[", 
+   RowBox[{"n_Integer", ",", " ", "q_"}], "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"Return", "[", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"q", "^", "n"}], "-", 
+        RowBox[{"q", "^", 
+         RowBox[{"(", 
+          RowBox[{"-", "n"}], ")"}]}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{"q", "-", 
+        RowBox[{"q", "^", 
+         RowBox[{"(", 
+          RowBox[{"-", "1"}], ")"}]}]}], ")"}]}], "]"}]}], 
+   "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"numericalPg", " ", "=", " ", 
+   RowBox[{"Import", "[", "\"\<./data/hom2to2.m\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pgsol", " ", "=", " ", 
+   RowBox[{"Import", "[", "\"\<./data/numerical_Pg.m\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"numericalTrivalent", " ", "=", " ", 
+   RowBox[{"Import", "[", "\"\<./data/hom2to1.m\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"numericalTrivalent", " ", "=", " ", 
+   RowBox[{"N", "[", "numericalTrivalent", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"trivsol", " ", "=", " ", 
+   RowBox[{"Import", "[", "\"\<./data/trivalent_sol.m\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"dim2to2", " ", "=", " ", 
+   RowBox[{"numericalPg", "//", "Length"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"dim2to1", " ", "=", " ", 
+   RowBox[{"numericalTrivalent", "//", "Length"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"For", "[", 
+   RowBox[{
+    RowBox[{"index1", "=", "1"}], ",", 
+    RowBox[{"index1", "<=", "dim2to2"}], ",", 
+    RowBox[{"index1", "++"}], ",", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"numericalPg", "[", 
+       RowBox[{"[", "index1", "]"}], "]"}], "[", 
+      RowBox[{"[", "\"\<scalar\>\"", "]"}], "]"}], "=", 
+     RowBox[{"pgsol", "[", 
+      RowBox[{"[", "index1", "]"}], "]"}]}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"For", "[", 
+   RowBox[{
+    RowBox[{"index2", "=", "1"}], ",", 
+    RowBox[{"index2", "<=", "dim2to1"}], ",", 
+    RowBox[{"index2", "++"}], ",", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"numericalTrivalent", "[", 
+       RowBox[{"[", "index2", "]"}], "]"}], "[", 
+      RowBox[{"[", "\"\<scalar\>\"", "]"}], "]"}], "=", 
+     RowBox[{
+      RowBox[{"trivsol", "[", 
+       RowBox[{"[", "index2", "]"}], "]"}], "//", "N"}]}]}], "]"}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.927199069473404*^9, 3.927199087282071*^9}, {
+   3.9271991772519693`*^9, 3.9271992073605413`*^9}, {3.927199241881421*^9, 
+   3.927199252873713*^9}, {3.927199336799938*^9, 3.927199337339267*^9}, {
+   3.927199425814569*^9, 3.927199641861989*^9}, 3.927199731056335*^9, {
+   3.9271997917056723`*^9, 3.927199844091689*^9}},
+ CellLabel->
+  "In[233]:=",ExpressionUUID->"8aeefb59-8ba6-49a7-b66b-89942a8862e8"]
+},
+WindowSize->{1253, 704},
+WindowMargins->{{12, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.0 for Mac OS X ARM (64-bit) (February 4, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"a4536d54-ce0c-485a-82d4-392b59e5ec7c"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 3751, 109, 325, "Input",ExpressionUUID->"8aeefb59-8ba6-49a7-b66b-89942a8862e8"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
