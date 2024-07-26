@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     21529,        600]
-NotebookOptionsPosition[     21174,        586]
-NotebookOutlinePosition[     21573,        602]
-CellTagsIndexPosition[     21530,        599]
+NotebookDataLength[     22184,        618]
+NotebookOptionsPosition[     21829,        604]
+NotebookOutlinePosition[     22228,        620]
+CellTagsIndexPosition[     22185,        617]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -232,6 +232,24 @@ Cell[BoxData[{
       RowBox[{
        RowBox[{"trivalentCoords", "[", 
         RowBox[{"[", "index2", "]"}], "]"}], "//", "N"}]}]}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Trivalent", " ", "=", " ", "Hom2to1"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"For", "[", 
+    RowBox[{
+     RowBox[{"index2", "=", "1"}], ",", 
+     RowBox[{"index2", "<=", "dim2to1"}], ",", 
+     RowBox[{"index2", "++"}], ",", " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Trivalent", "[", 
+        RowBox[{"[", "index2", "]"}], "]"}], "[", 
+       RowBox[{"[", "\"\<scalar\>\"", "]"}], "]"}], "=", 
+      RowBox[{"trivalentCoords", "[", 
+       RowBox[{"[", "index2", "]"}], "]"}]}]}], "]"}], ";"}], 
   "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"beta", "=", 
@@ -580,8 +598,8 @@ Cell[BoxData[{
    3.930984251720539*^9}, {3.93098431739956*^9, 3.9309843482119827`*^9}, {
    3.930984428373752*^9, 3.9309844404554996`*^9}, {3.930984521196905*^9, 
    3.930984525083441*^9}, {3.930984568174337*^9, 3.930984572401379*^9}, {
-   3.9309846086261587`*^9, 
-   3.930984646314454*^9}},ExpressionUUID->"1f38581d-48bb-4ecb-8f4a-\
+   3.9309846086261587`*^9, 3.930984646314454*^9}, {3.930984890625605*^9, 
+   3.930984913700686*^9}},ExpressionUUID->"1f38581d-48bb-4ecb-8f4a-\
 a0f140d6e56d"]
 },
 WindowSize->{Full, Full},
@@ -601,10 +619,8 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 20612, 564, 2709, "Input",ExpressionUUID->"1f38581d-48bb-4ecb-8f4a-a0f140d6e56d"]
+Cell[558, 20, 21267, 582, 2772, "Input",ExpressionUUID->"1f38581d-48bb-4ecb-8f4a-a0f140d6e56d"]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
