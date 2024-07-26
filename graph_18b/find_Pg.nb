@@ -2124,7 +2124,7 @@ Cell[BoxData[{
   3.924680891798869*^9, 3.9246808979025307`*^9}, {3.9254917943147573`*^9, 
   3.9254918586639013`*^9}, {3.9271965033454742`*^9, 3.927196504110585*^9}},
  CellLabel->
-  "In[312]:=",ExpressionUUID->"0aa4e72d-cd06-474b-af09-2a2b95ed9be7"],
+  "In[100]:=",ExpressionUUID->"0aa4e72d-cd06-474b-af09-2a2b95ed9be7"],
 
 Cell[TextData[StyleBox["Cap, Fork, Loop, and Proj equations",
  FontSize->24,
@@ -2164,7 +2164,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.924681046560444*^9, 3.92468123362465*^9}, {
   3.924683260911353*^9, 3.924683268694305*^9}},
  CellLabel->
-  "In[319]:=",ExpressionUUID->"cb69b3c7-5cdb-42d8-86b9-32482c75be21"],
+  "In[107]:=",ExpressionUUID->"cb69b3c7-5cdb-42d8-86b9-32482c75be21"],
 
 Cell[BoxData[{
  RowBox[{
@@ -2199,7 +2199,7 @@ Cell[BoxData[{
   3.924681894804006*^9, 3.924681905826627*^9}, {3.924683326862328*^9, 
   3.924683331799131*^9}, {3.924683395917637*^9, 3.9246834285053253`*^9}},
  CellLabel->
-  "In[323]:=",ExpressionUUID->"20e1ca1f-eec5-42b6-bb6e-c5946b7c13cc"],
+  "In[111]:=",ExpressionUUID->"20e1ca1f-eec5-42b6-bb6e-c5946b7c13cc"],
 
 Cell[BoxData[{
  RowBox[{
