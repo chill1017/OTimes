@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     23183,        641]
-NotebookOptionsPosition[     22642,        625]
-NotebookOutlinePosition[     23038,        641]
-CellTagsIndexPosition[     22995,        638]
+NotebookDataLength[     23386,        646]
+NotebookOptionsPosition[     22845,        630]
+NotebookOutlinePosition[     23241,        646]
+CellTagsIndexPosition[     23198,        643]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -618,10 +618,15 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"braidNum", " ", "=", " ", 
    RowBox[{"Import", "[", "\"\<./data/braid_num.m\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"braidInvNum", " ", "=", " ", 
+   RowBox[{"Import", "[", "\"\<./data/braid_inv_num.m\>\"", "]"}]}], 
   ";"}]}], "Input",
- CellChangeTimes->{{3.933761539683544*^9, 3.933761562893364*^9}},
+ CellChangeTimes->{{3.933761539683544*^9, 3.933761562893364*^9}, {
+  3.933856574592352*^9, 3.933856593484562*^9}},
  CellLabel->
-  "In[276]:=",ExpressionUUID->"92fdf552-8b28-4fca-a6cf-1dfe583e3c41"]
+  "In[190]:=",ExpressionUUID->"92fdf552-8b28-4fca-a6cf-1dfe583e3c41"]
 },
 WindowSize->{808, 759},
 WindowMargins->{{316, Automatic}, {Automatic, 0}},
@@ -642,7 +647,7 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 21341, 582, 2856, "Input",ExpressionUUID->"1f38581d-48bb-4ecb-8f4a-a0f140d6e56d"],
 Cell[21902, 604, 296, 6, 30, "Input",ExpressionUUID->"4120b15b-b27f-4f0f-a0a9-668c1925d20e"],
-Cell[22201, 612, 437, 11, 52, "Input",ExpressionUUID->"92fdf552-8b28-4fca-a6cf-1dfe583e3c41"]
+Cell[22201, 612, 640, 16, 73, "Input",ExpressionUUID->"92fdf552-8b28-4fca-a6cf-1dfe583e3c41"]
 }
 ]
 *)
