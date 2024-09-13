@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1298182,      30607]
-NotebookOptionsPosition[   1292942,      30519]
-NotebookOutlinePosition[   1293338,      30535]
-CellTagsIndexPosition[   1293295,      30532]
+NotebookDataLength[   1298597,      30617]
+NotebookOptionsPosition[   1293259,      30528]
+NotebookOutlinePosition[   1293655,      30544]
+CellTagsIndexPosition[   1293612,      30541]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -30515,7 +30515,16 @@ Cell[BoxData[
  CellChangeTimes->{{3.9352375451593857`*^9, 3.93523756741572*^9}, 
    3.9352384134125767`*^9},
  CellLabel->
-  "In[1148]:=",ExpressionUUID->"0d0925c3-8475-42e0-8ce4-db00d502c5f6"]
+  "In[1148]:=",ExpressionUUID->"0d0925c3-8475-42e0-8ce4-db00d502c5f6"],
+
+Cell[BoxData[
+ RowBox[{"Parallelize", "[", "\[IndentingNewLine]", 
+  RowBox[{"Map", "[", 
+   RowBox[{"RootReduce", ",", " ", "reducedSol"}], "]"}], 
+  "\[IndentingNewLine]", "]"}]], "Input",
+ CellChangeTimes->{{3.9352387329697*^9, 
+  3.935238749584219*^9}},ExpressionUUID->"62981541-2981-4f14-9011-\
+c5ad84efb6a7"]
 },
 WindowSize->{Full, Full},
 WindowMargins->{{4, Automatic}, {Automatic, 4}},
@@ -30608,7 +30617,8 @@ Cell[1126228, 26705, 149, 3, 52, "Input",ExpressionUUID->"4cbd821c-4f3d-489b-97b
 Cell[1126380, 26710, 36666, 849, 115, "Input",ExpressionUUID->"d21502fd-702f-4fa2-a2d4-7f41c258909a"],
 Cell[1163049, 27561, 35899, 842, 115, InheritFromParent,ExpressionUUID->"8b35d363-cf44-4c9a-9dc4-0bb7b0aae52c"],
 Cell[1198951, 28405, 232, 5, 94, "Input",ExpressionUUID->"468036cf-9657-4b96-a17f-ebb67dfafbd7"],
-Cell[1199186, 28412, 93752, 2105, 246, "Input",ExpressionUUID->"0d0925c3-8475-42e0-8ce4-db00d502c5f6"]
+Cell[1199186, 28412, 93752, 2105, 246, "Input",ExpressionUUID->"0d0925c3-8475-42e0-8ce4-db00d502c5f6"],
+Cell[1292941, 30519, 314, 7, 73, "Input",ExpressionUUID->"62981541-2981-4f14-9011-c5ad84efb6a7"]
 }
 ]
 *)
