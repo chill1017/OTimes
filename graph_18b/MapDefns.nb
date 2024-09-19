@@ -802,64 +802,111 @@ Cell[BoxData[
     "\"\<.\\\\data\\\\Pg_rev_num.m\>\"", "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.9336802254544363`*^9, 3.9336802627247667`*^9}, {
   3.9356702841383657`*^9, 3.9356702919246163`*^9}},
- CellLabel->"In[41]:=",ExpressionUUID->"4120b15b-b27f-4f0f-a0a9-668c1925d20e"],
+ CellLabel->
+  "In[106]:=",ExpressionUUID->"4120b15b-b27f-4f0f-a0a9-668c1925d20e"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[{
  RowBox[{
   RowBox[{"braid", " ", "=", " ", 
-   RowBox[{"Import", "[", "\"\<./data/braid.m\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+   RowBox[{"Import", "[", 
+    RowBox[{"(*", "\"\<./data/braid.m\>\"", "*)"}], 
+    "\"\<.\\\\data\\\\braid.m\>\"", "]"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"braidNum", " ", "=", " ", 
-   RowBox[{"Import", "[", "\"\<./data/braid_num.m\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+   RowBox[{"Import", "[", 
+    RowBox[{"(*", "\"\<./data/braid_num.m\>\"", "*)"}], 
+    "\"\<.\\\\data\\\\braid_num.m\>\"", "]"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"braidInvNum", " ", "=", " ", 
-   RowBox[{"Import", "[", "\"\<./data/braid_inv_num.m\>\"", "]"}]}], 
-  ";"}]}], "Input",
+   RowBox[{"Import", "[", 
+    RowBox[{"(*", "\"\<./data/braid_inv_num.m\>\"", "*)"}], 
+    "\"\<.\\\\data\\\\braid_inv_num.m\>\"", "]"}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.933761539683544*^9, 3.933761562893364*^9}, {
-  3.933856574592352*^9, 3.933856593484562*^9}},
+  3.933856574592352*^9, 3.933856593484562*^9}, {3.935671186256312*^9, 
+  3.935671234924081*^9}},
  CellLabel->
   "In[107]:=",ExpressionUUID->"92fdf552-8b28-4fca-a6cf-1dfe583e3c41"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import", "nffil", 
+   "\"File \\!\\(\\*RowBox[{\\\"\\\\\\\".\\\\\\\\\\\\\\\\data\\\\\\\\\\\\\\\\\
+braid_inv_num.m\\\\\\\"\\\"}]\\) not found during \\!\\(\\*RowBox[{\\\"Import\
+\\\"}]\\).\"", 2, 109, 2, 31123793223159362111, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9356713811741104`*^9},
+ CellLabel->
+  "During evaluation of \
+In[107]:=",ExpressionUUID->"e019a8c4-bf32-4953-85b8-ec3b35c87397"]
+}, Open  ]],
 
 Cell[BoxData[{
  RowBox[{
   RowBox[{"leftUp", " ", "=", " ", 
-   RowBox[{"Import", "[", "\"\<./data/left_up.m\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+   RowBox[{"Import", "[", 
+    RowBox[{"(*", "\"\<./data/left_up.m\>\"", "*)"}], 
+    "\"\<.\\\\data\\\\left_up.m\>\"", "]"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"leftDown", " ", "=", " ", 
-   RowBox[{"Import", "[", "\"\<./data/left_down.m\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+   RowBox[{"Import", "[", 
+    RowBox[{"(*", "\"\<./data/left_down.m\>\"", "*)"}], 
+    "\"\<.\\\\data\\\\left_down.m\>\"", "]"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"rightUp", " ", "=", " ", 
-   RowBox[{"Import", "[", "\"\<./data/right_up.m\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+   RowBox[{"Import", "[", 
+    RowBox[{"(*", "\"\<./data/right_up.m\>\"", "*)"}], 
+    "\"\<.\\\\data\\\\right_up.m\>\"", "]"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"rightDown", " ", "=", " ", 
-   RowBox[{"Import", "[", "\"\<./data/right_down.m\>\"", "]"}]}], 
+   RowBox[{"Import", "[", 
+    RowBox[{"(*", "\"\<./data/right_down.m\>\"", "*)"}], 
+    "\"\<.\\\\data\\\\right_down.m\>\"", "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"bottomLeft", " ", "=", " ", 
-   RowBox[{"Import", "[", "\"\<./data/bottom_left.m\>\"", "]"}]}], 
+   RowBox[{"Import", "[", 
+    RowBox[{"(*", "\"\<./data/bottom_left.m\>\"", "*)"}], 
+    "\"\<.\\\\data\\\\bottom_left.m\>\"", "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"bottomRight", " ", "=", " ", 
-   RowBox[{"Import", "[", "\"\<./data/bottom_right.m\>\"", "]"}]}], 
-  ";"}]}], "Input",
+   RowBox[{"Import", "[", 
+    RowBox[{"(*", "\"\<./data/bottom_right.m\>\"", "*)"}], 
+    "\"\<.\\\\data\\\\bottom_right.m\>\"", "]"}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.933942861487978*^9, 3.933942976800646*^9}, {
-  3.933943482762402*^9, 3.9339435293923807`*^9}},
+  3.933943482762402*^9, 3.9339435293923807`*^9}, {3.93567126300149*^9, 
+  3.935671355244933*^9}},
  CellLabel->
   "In[110]:=",ExpressionUUID->"595c32a4-7fca-44c7-a48a-cd350d205fb1"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"PgRev", " ", "=", " ", 
-   RowBox[{"Import", "[", "\"\<./data/Pg_rev_exact.m\>\"", "]"}]}], 
-  ";"}]], "Input",
- CellChangeTimes->{{3.9348884829573917`*^9, 3.934888487335867*^9}},
+   RowBox[{"Import", "[", 
+    RowBox[{"(*", "\"\<./data/Pg_rev_exact.m\>\"", "*)"}], 
+    "\"\<.\\\\data\\\\Pg_rev_exact.m\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.9348884829573917`*^9, 3.934888487335867*^9}, {
+  3.935671361021345*^9, 3.9356713672202797`*^9}},
  CellLabel->
   "In[116]:=",ExpressionUUID->"668b9bf8-7a1e-4550-ae2d-25dcce86c8af"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import", "nffil", 
+   "\"File \\!\\(\\*RowBox[{\\\"\\\\\\\".\\\\\\\\\\\\\\\\data\\\\\\\\\\\\\\\\\
+Pg_rev_exact.m\\\\\\\"\\\"}]\\) not found during \
+\\!\\(\\*RowBox[{\\\"Import\\\"}]\\).\"", 2, 116, 3, 31123793223159362111, 
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9356714031530933`*^9},
+ CellLabel->
+  "During evaluation of \
+In[116]:=",ExpressionUUID->"c21c59dd-c691-4808-8a85-711ba494277f"]
+}, Open  ]],
 
 Cell[TextData[StyleBox["The six singly-decorated trivalent vertices:",
  FontSize->24,
@@ -1325,6 +1372,8 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[558, 20, 25639, 648, 2887, "Input",ExpressionUUID->"1f38581d-48bb-4ecb-8f4a-a0f140d6e56d"],
+Cell[26200, 670, 419, 9, 28, "Input",ExpressionUUID->"4120b15b-b27f-4f0f-a0a9-668c1925d20e"],
 Cell[CellGroupData[{
 Cell[580, 22, 24818, 663, 3192, "Input",ExpressionUUID->"1f38581d-48bb-4ecb-8f4a-a0f140d6e56d"],
 Cell[25401, 687, 456, 10, 28, "Message",ExpressionUUID->"0e6d392b-9a85-447e-a105-ba082aff4e60"],
