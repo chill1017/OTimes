@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     10811,        288]
-NotebookOptionsPosition[      8622,        251]
-NotebookOutlinePosition[      9025,        267]
-CellTagsIndexPosition[      8982,        264]
+NotebookDataLength[     10394,        277]
+NotebookOptionsPosition[      8298,        241]
+NotebookOutlinePosition[      8701,        257]
+CellTagsIndexPosition[      8658,        254]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -237,17 +237,7 @@ Cell[BoxData["1.0550504633039373`"], "Output",
  CellChangeTimes->{3.9357355291506157`*^9},
  CellLabel->
   "Out[197]=",ExpressionUUID->"b68e3f89-aa0b-4a63-8ead-32d952aa8361"]
-}, Open  ]],
-
-Cell[BoxData[
- RowBox[{"(*", 
-  RowBox[{
-   RowBox[{"Export", "[", 
-    RowBox[{"\"\<.\\\\data\\\\cubePg_num.m\>\"", ",", " ", "L1"}], "]"}], 
-   ";"}], "*)"}]], "Input",
- CellChangeTimes->{{3.935671709112932*^9, 3.935671751348171*^9}, 
-   3.9356790798455906`*^9},ExpressionUUID->"4f61292e-4e3e-4130-8227-\
-ba247f088cc8"]
+}, Open  ]]
 },
 WindowSize->{1173.75, 595.5},
 WindowMargins->{{-6, Automatic}, {Automatic, 0}},
@@ -288,8 +278,7 @@ Cell[7317, 211, 532, 13, 48, "Input",ExpressionUUID->"0426671a-8851-48b2-8f4a-66
 Cell[CellGroupData[{
 Cell[7874, 228, 232, 5, 28, "Input",ExpressionUUID->"8a6a65ed-685e-4225-a7b7-15d4ebd7afbb"],
 Cell[8109, 235, 173, 3, 32, "Output",ExpressionUUID->"b68e3f89-aa0b-4a63-8ead-32d952aa8361"]
-}, Open  ]],
-Cell[8297, 241, 321, 8, 28, "Input",ExpressionUUID->"4f61292e-4e3e-4130-8227-ba247f088cc8"]
+}, Open  ]]
 }
 ]
 *)
